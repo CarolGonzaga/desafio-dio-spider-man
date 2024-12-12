@@ -55,3 +55,40 @@
   position: absolute;
   top: -20px;
 }
+
+@media screen and (max-width: 500px) {
+  .navigator {
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 1fr; /* Ícone e lista de links */
+    grid-template-rows: auto;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    position: static; /* Remove posição fixa */
+  }
+
+  .navigator::before {
+    display: none; /* Remove a linha vertical */
+  }
+
+  .navigator ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style: none; /* Remove estilos de lista */
+    z-index: auto;
+  }
+
+  .navigator ul li {
+    margin: 0; /* Remove espaçamento vertical */
+  }
+
+  .navigator .navigator__icon {
+    position: static; /* Remove posicionamento absoluto */
+    justify-self: start; /* Alinha o ícone na primeira coluna */
+  }
+}

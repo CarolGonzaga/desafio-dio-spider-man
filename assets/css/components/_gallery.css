@@ -17,6 +17,28 @@
 }
 
 .gallery ul li a img{
-  border:solid 6px white;
+  border: solid 6px white;
   border-radius: 15px;
+}
+
+@media screen and (max-width: 500px) {
+  .gallery {
+    padding: 10px;
+  }
+
+  .gallery ul {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .gallery ul li {
+    width: 100%;
+    margin: 0;
+  }
+
+  .gallery ul li a img {
+    width: 100%;
+    height: auto;
+  }
 }
