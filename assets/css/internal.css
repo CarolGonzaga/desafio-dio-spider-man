@@ -1,16 +1,7 @@
-<<<<<<< HEAD
 @import url('./components/_gallery.css');
 @import url('./components/_link-button.css');
 @import url('./components/_navigator.css');
 @import url('./components/_pills.css');
-=======
-@import url('./reset.css');
-@import url('./global.css');
-@import url('../css/components/_gallery.css');
-@import url('../css/components/_link-button.css');
-@import url('../css/components/_navigator.css');
-@import url('../css/components/_pills.css');
->>>>>>> f4a3d147992bd8f226b3ebe6dc695d10ff9ed17d
 
 .s-wrapper {
   display: flex;
