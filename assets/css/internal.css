@@ -1,7 +1,5 @@
-@import url('./components/_gallery.css');
-@import url('./components/_link-button.css');
-@import url('./components/_navigator.css');
-@import url('./components/_pills.css');
+@import url('reset.css');
+@import url('global.css');
 
 .s-wrapper {
   display: flex;
