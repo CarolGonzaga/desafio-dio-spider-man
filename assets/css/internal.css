@@ -1,6 +1,11 @@
 @import url('reset.css');
 @import url('global.css');
 
+@import url('_gallery.css');
+@import url('_link-button.css');
+@import url('_navigator.css');
+@import url('_pills.css');
+
 .s-wrapper {
   display: flex;
   height: 100vh;
