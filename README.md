@@ -1,4 +1,4 @@
-# Desafio - Galeria Spider-Man 🕷️  
+# Desafio - Galeria Spider-Man 🕷  
 
 - Desenvolvimento Front-End  
 - Uma aplicação interativa que apresenta uma galeria com informações e mídia sobre os filmes do Spider-Man.
