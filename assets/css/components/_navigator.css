@@ -61,16 +61,16 @@
     height: auto;
     width: 100%;
     display: grid;
-    grid-template-columns: auto 1fr; /* Ícone e lista de links */
+    grid-template-columns: auto 1fr;
     grid-template-rows: auto;
     align-items: center;
     gap: 10px;
     padding: 10px;
-    position: static; /* Remove posição fixa */
+    position: static;
   }
 
   .navigator::before {
-    display: none; /* Remove a linha vertical */
+    display: none;
   }
 
   .navigator ul {
@@ -79,16 +79,16 @@
     justify-content: space-around;
     margin: 0;
     padding: 0;
-    list-style: none; /* Remove estilos de lista */
+    list-style: none;
     z-index: auto;
   }
 
   .navigator ul li {
-    margin: 0; /* Remove espaçamento vertical */
+    margin: 0;
   }
 
   .navigator .navigator__icon {
-    position: static; /* Remove posicionamento absoluto */
-    justify-self: start; /* Alinha o ícone na primeira coluna */
+    position: static;
+    justify-self: start;
   }
 }
