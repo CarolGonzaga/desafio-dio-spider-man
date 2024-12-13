@@ -1,13 +1,6 @@
 @import url('reset.css');
 @import url('global.css');
 
-@import url('../css/components/_gallery.css');
-@import url('../css/components/_link-button.css');
-@import url('../css/components/_navigator.css');
-@import url('../css/components/_pills.css');
-
-
-
 body {
   background-color: var(--primary-color);
 }
