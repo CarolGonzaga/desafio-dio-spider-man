@@ -1,6 +1,8 @@
 @import url('reset.css');
 @import url('global.css');
 
+@import url('./components/_gallery.css');
+
 body {
   background-color: var(--primary-color);
 }
